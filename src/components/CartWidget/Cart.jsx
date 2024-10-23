@@ -1,7 +1,7 @@
 const Cart = () => {
   return (
     <a className="nav-link" href="#">
-    <span>0</span>
+    <span className="fs-5">0</span>
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="35"

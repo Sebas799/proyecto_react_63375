@@ -1,11 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import NavBar from './components/NavBar/NavBar'
+import ProductListContainer from './components/ProductListContainer/ProductListContainer'
 
 function App() {
   return (
+    <>
     <NavBar/>
+    <ProductListContainer saludo="Sitio WEB en construcción..."/>
+    </>
   )
 }
 
