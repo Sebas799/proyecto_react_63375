@@ -1,0 +1,15 @@
+.card {
+    max-width: 900px;
+}
+
+.card-img {
+    object-fit:contain !important;
+    height: 100%;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}

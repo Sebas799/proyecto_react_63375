@@ -1,0 +1,15 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    margin-left: -8px;   
+    margin-right: -8px;  
+  }
+  
+.col {
+    padding-left: 8px;   
+    padding-right: 8px;  
+  }

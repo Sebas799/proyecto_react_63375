@@ -1,14 +1,15 @@
 import Cart from '../CartWidget/Cart'
 import '../NavBar/NavBar.css'
+import { Link } from 'react-router-dom'
 
 function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-primary text-white">
       <div className="container-fluid">
-        <a className="d-flex navbar-brand text-white fw-bold align-items-center" href="#">
+        <Link className="d-flex navbar-brand text-white fw-bold align-items-center" to="#">
           <img className="w-5 me-2" src="../../../public/page-icon.svg" alt="Logo" />
           <p className="fs-4 m-0">FITNESS - SHOP</p>
-        </a>
+        </Link>
         <button
           className="navbar-toggler"
           type="button"
@@ -23,24 +24,24 @@ function NavBar() {
         <div className="d-flex collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active text-white fs-5" aria-current="page" href="#">
+              <Link className="nav-link active text-white fs-5" aria-current="page" to="/">
                 Inicio
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active text-white fs-5" href="#">
+              <Link className="nav-link active text-white fs-5" to="/products">
                 Productos
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active text-white fs-5" href="#">
+              <Link className="nav-link active text-white fs-5" to="/aboutUs">
                 Nosotros
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link active text-white fs-5" href="#">
+              <Link className="nav-link active text-white fs-5" to="/contact">
                 Contacto
-              </a>
+              </Link>
             </li>
           </ul>
           <form className="d-flex p-2">
